@@ -24,6 +24,21 @@
         list-style: none;
         border: 0;
       }
+
+      .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 28px;
+      }
+
+      #app1-section {
+        margin-right: 16px;
+      }
+
+      #app2-section {
+        margin-left: 16px;
+      }
     </style>
 
     <script type="systemjs-importmap">
@@ -70,7 +85,7 @@
       <section id="header-section"></section>
     </header>
 
-    <main>
+    <main class="main-container">
       <section id="app1-section"></section>
       <section id="app2-section"></section>
     </main>
