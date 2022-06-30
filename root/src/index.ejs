@@ -46,7 +46,10 @@
       {
         "imports": {
           "@mfe/root-config": "//localhost:9000/mfe-root-config.js",
-          "@mfe/header": "//localhost:9001/main.js"
+          "@mfe/header": "//localhost:9001/main.js",
+          "@mfe/app1": "//localhost:9002/main.js",
+          "@mfe/app2": "//localhost:9003/main.js",
+          "@mfe/footer": "//localhost:9004/main.js"
         }
       }
     </script>
@@ -68,11 +71,12 @@
     </header>
 
     <main>
-      <section></section>
+      <section id="app1-section"></section>
+      <section id="app2-section"></section>
     </main>
 
     <footer>
-      <section></section>
+      <section id="footer-section"></section>
     </footer>
 
     <script>

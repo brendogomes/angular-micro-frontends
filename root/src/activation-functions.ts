@@ -13,7 +13,11 @@ export function header(): boolean {
   return true;
 }
 
-export function home(): boolean {
+export function app1(): boolean {
+  return true; 
+}
+
+export function app2(): boolean {
   return true; 
 }
 
