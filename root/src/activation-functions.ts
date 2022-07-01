@@ -1,5 +1,5 @@
 /* 
-Para ajudar o aplicativo de contêiner a entender quando cada aplicativo deve ser exibido,
+Para ajudar o aplicativo container a entender quando cada aplicativo deve ser exibido,
 fornecemos as chamadas "funções de atividade". Cada aplicativo tem uma função de atividade
 que simplesmente retorna um booleano, verdadeiro ou falso, para saber se o aplicativo está ativo ou não. 
 */

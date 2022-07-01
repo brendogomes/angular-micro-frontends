@@ -1,6 +1,8 @@
 import { registerApplication, start } from "single-spa";
 import * as isActive from "./activation-functions";
 
+// Neste arquivo definimos quando e qual projeto será utilizado em determinada rota.
+
 registerApplication(
   "@mfe/header",
   () => System.import("@mfe/header"),
