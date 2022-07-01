@@ -1,1 +1,1 @@
-# Micro-Frontend-Single-Spa
+# angular-micro-frontends
