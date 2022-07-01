@@ -1,0 +1,11 @@
+:host {
+  #footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+
+  ::ng-deep.mat-toolbar {
+    background-color: #c78dfd;
+  }
+}
